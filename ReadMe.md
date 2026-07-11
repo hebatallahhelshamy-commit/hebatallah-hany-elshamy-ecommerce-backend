@@ -27,7 +27,7 @@
    npm install
 
 
-Project Structure
+### projest Structure :
 
 config/db.js - الملف اللي عملت فيه الاتصال بالداتابيز ونظام الأخطاء.
 controllers/ - الفولدر اللي جواه اللوجيك والتحكم بتاع كل حاجة (المنتجات، السلة، والطلبات).
@@ -38,17 +38,18 @@ server.js - الملف المسؤول عن تشغيل وقومة السيرفر.
 
 
 # روابط الـ API اللي جهزتها (Endpoints)
-الأقسام (Categories)
+
+* الأقسام (Categories)
 GET /categories - عشان أعرض كل الأقسام اللي عندي.
 POST /categories - عشان أضيف قسم جديد.
 
-المنتجات (Products)
+* المنتجات (Products)
 GET /products - عشان أعرض كل المنتجات.
 POST /products - عشان أضيف منتج جديد.
 
-السلة (Cart)
+* السلة (Cart)
 POST /cart/add - عشان أضيف منتج للسلة وأزود الكمية ويحسب الإجمالي لوحده.
 
-الطلبات والفاتورة (Orders)
+* الطلبات والفاتورة (Orders)
 POST /orders/checkout - عشان أتمم عملية الشراء وأعمل الفاتورة وتفضّي السلة تلقائيًا.
 
