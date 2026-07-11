@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema({
     },
     category: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Category", // لازم يكون نفس الاسم اللي مسجله بيه موديل الـ Category عندك
+        ref: "Category", 
         required: [true, "المنتج يجب أن ينتمي لتصنيف معين"]
     }
 }, { timestamps: true });

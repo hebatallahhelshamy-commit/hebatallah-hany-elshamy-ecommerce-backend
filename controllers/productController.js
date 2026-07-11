@@ -1,6 +1,4 @@
 const Product = require("../models/Product");
-
-// 1. إضافة منتج جديد
 exports.createProduct = async (req, res) => {
     try {
         const product = await Product.create(req.body);
@@ -10,7 +8,6 @@ exports.createProduct = async (req, res) => {
     }
 };
 
-// 2. جلب كل المنتجات مع الـ populate
 exports.getProducts = async (req, res) => {
     try {
         const products = await Product.find().populate("category");
