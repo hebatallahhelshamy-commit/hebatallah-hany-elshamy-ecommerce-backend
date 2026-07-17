@@ -1,5 +1,5 @@
 GitHub Repository URL:
-https://github.com/hebatallahhelshamy-commit/hebatallah-helshamy-ecommerce-backend
+https://github.com/hebatallahhelshamy-commit/hebatallah-hany-elshamy-ecommerce-backend
 
 E-COMMERCE BACKEND API PROJECT - README
 
